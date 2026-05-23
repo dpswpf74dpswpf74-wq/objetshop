@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ObjetShop Privacy Policy</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23fe2c55'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-size='18' font-family='sans-serif' fill='white'>O</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #fe2c55;
+      --dark:  #0d0d0d;
+      --mid:   #444;
+      --light: #f7f7f7;
+      --border:#e2e2e2;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #fff;
+      color: var(--dark);
+      line-height: 1.75;
+    }
+    header {
+      background: var(--dark);
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header .logo-icon {
+      width: 36px; height: 36px;
+      background: var(--brand);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'DM Serif Display', serif;
+      color: #fff; font-size: 20px; font-weight: bold;
+    }
+    header .logo-text {
+      font-family: 'DM Serif Display', serif;
+      color: #fff;
+      font-size: 22px;
+      letter-spacing: 0.5px;
+    }
+    .hero {
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 40px 40px;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.4rem;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+    .hero .meta {
+      color: var(--mid);
+      font-size: 0.9rem;
+    }
+    .hero .meta span {
+      background: var(--brand);
+      color: #fff;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 40px 80px;
+    }
+    section { margin-bottom: 44px; }
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.35rem;
+      color: var(--dark);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--brand);
+      display: inline-block;
+    }
+    p { color: #333; margin-bottom: 12px; font-size: 0.97rem; }
+    ul { padding-left: 20px; color: #333; font-size: 0.97rem; }
+    ul li { margin-bottom: 6px; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-box {
+      background: #fff5f7;
+      border-left: 4px solid var(--brand);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 0.95rem;
+      color: #333;
+    }
+    footer {
+      background: var(--dark);
+      color: #999;
+      text-align: center;
+      padding: 28px;
+      font-size: 0.85rem;
+    }
+    footer strong { color: #fff; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-icon">O</div>
+  <div class="logo-text">ObjetShop</div>
+</header>
+
+<div class="hero">
+  <h1>ObjetShop Privacy Policy</h1>
+  <p class="meta">
+    <span>ObjetShop</span>
+    Last updated: May 23, 2025 &nbsp;·&nbsp; Effective: May 23, 2025
+  </p>
+</div>
+
+<main>
+
+  <section>
+    <h2>1. Introduction</h2>
+    <p>Welcome to <strong>ObjetShop</strong>. ObjetShop ("we," "our," or "us") operates an automated content publishing application that posts short-form product recommendation videos to social media platforms including TikTok.</p>
+    <p>This Privacy Policy explains how ObjetShop collects, uses, discloses, and safeguards information when you authorize our application to access your TikTok account via the TikTok API.</p>
+    <div class="highlight-box">
+      By authorizing ObjetShop to access your TikTok account, you agree to this Privacy Policy. If you do not agree, please do not authorize the application.
+    </div>
+  </section>
+
+  <section>
+    <h2>2. Information We Collect</h2>
+    <p>When you authorize ObjetShop through TikTok's OAuth 2.0 flow, we may collect and use the following information:</p>
+    <ul>
+      <li><strong>TikTok Access Token</strong> — Used solely to publish video content to your authorized TikTok account on your behalf.</li>
+      <li><strong>TikTok Open ID</strong> — A unique identifier provided by TikTok to identify your account for API operations.</li>
+      <li><strong>Account Display Name</strong> — Used for logging and identifying which account content is posted to.</li>
+    </ul>
+    <p>We do <strong>not</strong> collect passwords, financial information, private messages, follower lists, or any personal data beyond what is strictly necessary to post content on your behalf.</p>
+  </section>
+
+  <section>
+    <h2>3. How We Use Your Information</h2>
+    <p>ObjetShop uses the collected information exclusively for the following purposes:</p>
+    <ul>
+      <li>To authenticate and authorize the application to post videos to your TikTok account using the <code>video.publish</code> scope.</li>
+      <li>To upload short-form product recommendation videos on your behalf via the TikTok Content Posting API.</li>
+      <li>To log upload activity for operational monitoring and error recovery.</li>
+    </ul>
+    <p>We do <strong>not</strong> sell, rent, trade, or otherwise transfer your information to third parties for marketing or any other purpose.</p>
+  </section>
+
+  <section>
+    <h2>4. TikTok API Scopes Used</h2>
+    <p>ObjetShop requests only the following TikTok API scope:</p>
+    <ul>
+      <li><strong>video.publish</strong> — Allows ObjetShop to publish video content directly to your TikTok profile. This scope is used exclusively to post product short-form videos.</li>
+    </ul>
+    <p>No other scopes are requested or used. ObjetShop does not read your existing videos, access your inbox, or retrieve any account analytics.</p>
+  </section>
+
+  <section>
+    <h2>5. Data Storage and Security</h2>
+    <p>Access tokens are stored locally on the authorized user's own device in an encrypted token cache file. We do not store tokens on remote servers.</p>
+    <p>We implement reasonable technical measures to protect your information from unauthorized access, including:</p>
+    <ul>
+      <li>Local-only token storage (not transmitted to third-party servers)</li>
+      <li>Automatic token refresh using TikTok's standard OAuth refresh flow</li>
+      <li>No logging of token values in application logs</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Data Retention</h2>
+    <p>Access tokens are retained only as long as you maintain authorization. You may revoke access at any time through your TikTok account settings under <strong>Settings → Security → Apps and Permissions</strong>. Upon revocation, all cached tokens are invalidated immediately.</p>
+  </section>
+
+  <section>
+    <h2>7. Third-Party Services</h2>
+    <p>ObjetShop integrates with the following third-party platforms:</p>
+    <ul>
+      <li><strong>TikTok</strong> — Content Posting API for video publishing. Subject to <a href="https://www.tiktok.com/legal/page/us/privacy-policy/en" target="_blank">TikTok's Privacy Policy</a>.</li>
+      <li><strong>Amazon Associates</strong> — Affiliate product links included in video descriptions. Subject to <a href="https://www.amazon.com/gp/help/customer/display.html?nodeId=468496" target="_blank">Amazon's Privacy Notice</a>.</li>
+    </ul>
+    <p>ObjetShop is not responsible for the privacy practices of these third-party services.</p>
+  </section>
+
+  <section>
+    <h2>8. Your Rights</h2>
+    <p>You have the right to:</p>
+    <ul>
+      <li>Revoke ObjetShop's access to your TikTok account at any time</li>
+      <li>Request deletion of any stored tokens or account identifiers</li>
+      <li>Request information about what data we hold related to your account</li>
+    </ul>
+    <p>To exercise these rights, contact us at the email address below.</p>
+  </section>
+
+  <section>
+    <h2>9. Children's Privacy</h2>
+    <p>ObjetShop is not directed at individuals under the age of 13. We do not knowingly collect personal information from children under 13. If you believe we have inadvertently collected such information, please contact us immediately.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will revise the "Last updated" date at the top of this page. Continued use of ObjetShop after any changes constitutes acceptance of the revised policy.</p>
+  </section>
+
+  <section>
+    <h2>11. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy or ObjetShop's data practices, please contact us:</p>
+    <div class="highlight-box">
+      <strong>ObjetShop</strong><br>
+      Email: <a href="mailto:contact@objetshop.app">contact@objetshop.app</a><br>
+      Website: <a href="https://objetshop.app">https://objetshop.app</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <strong>ObjetShop</strong> &nbsp;·&nbsp; Privacy Policy &nbsp;·&nbsp; © 2025 ObjetShop. All rights reserved.
+</footer>
+
+</body>
+</html>
