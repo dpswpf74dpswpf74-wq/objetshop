@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ObjetShop Terms of Service</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%23fe2c55'/><text x='50%' y='54%' dominant-baseline='middle' text-anchor='middle' font-size='18' font-family='sans-serif' fill='white'>O</text></svg>">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --brand: #fe2c55;
+      --dark:  #0d0d0d;
+      --mid:   #444;
+      --light: #f7f7f7;
+      --border:#e2e2e2;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #fff;
+      color: var(--dark);
+      line-height: 1.75;
+    }
+    header {
+      background: var(--dark);
+      padding: 20px 40px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    header .logo-icon {
+      width: 36px; height: 36px;
+      background: var(--brand);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'DM Serif Display', serif;
+      color: #fff; font-size: 20px; font-weight: bold;
+    }
+    header .logo-text {
+      font-family: 'DM Serif Display', serif;
+      color: #fff;
+      font-size: 22px;
+      letter-spacing: 0.5px;
+    }
+    .hero {
+      background: var(--light);
+      border-bottom: 1px solid var(--border);
+      padding: 48px 40px 40px;
+    }
+    .hero h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 2.4rem;
+      color: var(--dark);
+      margin-bottom: 10px;
+    }
+    .hero .meta {
+      color: var(--mid);
+      font-size: 0.9rem;
+    }
+    .hero .meta span {
+      background: var(--brand);
+      color: #fff;
+      padding: 2px 10px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-right: 8px;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 40px 80px;
+    }
+    section { margin-bottom: 44px; }
+    h2 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.35rem;
+      color: var(--dark);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--brand);
+      display: inline-block;
+    }
+    p { color: #333; margin-bottom: 12px; font-size: 0.97rem; }
+    ul { padding-left: 20px; color: #333; font-size: 0.97rem; }
+    ul li { margin-bottom: 6px; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .highlight-box {
+      background: #fff5f7;
+      border-left: 4px solid var(--brand);
+      padding: 16px 20px;
+      border-radius: 0 8px 8px 0;
+      margin: 16px 0;
+      font-size: 0.95rem;
+      color: #333;
+    }
+    footer {
+      background: var(--dark);
+      color: #999;
+      text-align: center;
+      padding: 28px;
+      font-size: 0.85rem;
+    }
+    footer strong { color: #fff; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-icon">O</div>
+  <div class="logo-text">ObjetShop</div>
+</header>
+
+<div class="hero">
+  <h1>ObjetShop Terms of Service</h1>
+  <p class="meta">
+    <span>ObjetShop</span>
+    Last updated: May 23, 2025 &nbsp;·&nbsp; Effective: May 23, 2025
+  </p>
+</div>
+
+<main>
+
+  <section>
+    <h2>1. Acceptance of Terms</h2>
+    <p>By authorizing or using <strong>ObjetShop</strong> ("the Application," "we," "our," or "us"), you ("User") agree to be bound by these Terms of Service. If you do not agree to these terms, do not authorize or use the Application.</p>
+    <p>ObjetShop is an automated content publishing tool that uses the TikTok Content Posting API to publish short-form product recommendation videos to your authorized social media accounts.</p>
+  </section>
+
+  <section>
+    <h2>2. Description of Service</h2>
+    <p>ObjetShop provides the following services:</p>
+    <ul>
+      <li>Automated generation of short-form product recommendation videos using publicly available Amazon product data</li>
+      <li>Automated publishing of video content to your authorized TikTok account via the TikTok Content Posting API (<code>video.publish</code> scope)</li>
+      <li>Inclusion of Amazon Associates affiliate links in video descriptions</li>
+      <li>Scheduled posting at user-defined intervals</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. TikTok API Usage</h2>
+    <p>ObjetShop integrates with TikTok's Content Posting API. By using ObjetShop, you acknowledge and agree that:</p>
+    <ul>
+      <li>You are authorizing ObjetShop to post content to your TikTok account on your behalf using the <strong>video.publish</strong> scope</li>
+      <li>All content posted by ObjetShop complies with <a href="https://www.tiktok.com/legal/page/us/terms-of-service/en" target="_blank">TikTok's Terms of Service</a> and <a href="https://www.tiktok.com/community-guidelines" target="_blank">Community Guidelines</a></li>
+      <li>You may revoke ObjetShop's access at any time through TikTok's account settings</li>
+      <li>ObjetShop will only use the API scopes explicitly granted by you</li>
+    </ul>
+    <div class="highlight-box">
+      ObjetShop uses only the <strong>video.publish</strong> scope. We do not access your private messages, follower data, analytics, or any other account information.
+    </div>
+  </section>
+
+  <section>
+    <h2>4. User Responsibilities</h2>
+    <p>As a User of ObjetShop, you agree to:</p>
+    <ul>
+      <li>Use ObjetShop only for lawful purposes and in compliance with all applicable laws and regulations</li>
+      <li>Comply with TikTok's Terms of Service and Community Guidelines at all times</li>
+      <li>Comply with Amazon's Associates Program Operating Agreement if using affiliate links</li>
+      <li>Not use ObjetShop to post content that is misleading, fraudulent, or violates any third-party rights</li>
+      <li>Be solely responsible for the content published to your account via ObjetShop</li>
+      <li>Not attempt to circumvent, reverse-engineer, or misuse the Application</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Content and Intellectual Property</h2>
+    <p>Product images, names, and descriptions used in ObjetShop-generated videos are sourced from publicly available Amazon product listings. ObjetShop does not claim ownership over third-party product content.</p>
+    <p>ObjetShop-generated video compositions, overlays, and interface elements are the property of ObjetShop. You are granted a limited, non-exclusive license to use the Application for its intended purpose.</p>
+  </section>
+
+  <section>
+    <h2>6. Affiliate Disclosure</h2>
+    <p>ObjetShop publishes videos containing Amazon Associates affiliate links. As an Amazon Associate, purchases made through these links may result in a commission. This is disclosed in accordance with the FTC's guidelines on endorsements and testimonials.</p>
+    <p>ObjetShop videos posted to TikTok will include appropriate commercial content disclosures as required by TikTok's Content Disclosure Policy.</p>
+  </section>
+
+  <section>
+    <h2>7. Disclaimer of Warranties</h2>
+    <p>ObjetShop is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied. We do not warrant that:</p>
+    <ul>
+      <li>The Application will be uninterrupted, error-free, or secure</li>
+      <li>Any content published will achieve specific engagement or revenue results</li>
+      <li>The Application will remain compatible with future TikTok API changes</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by applicable law, ObjetShop shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of the Application, including but not limited to account suspension by TikTok, loss of revenue, or data loss.</p>
+  </section>
+
+  <section>
+    <h2>9. Termination</h2>
+    <p>You may terminate your use of ObjetShop at any time by revoking the application's access through your TikTok account settings. We reserve the right to terminate or suspend access to ObjetShop at our discretion, without notice, for conduct that we believe violates these Terms of Service.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to Terms</h2>
+    <p>We reserve the right to modify these Terms of Service at any time. Changes will be effective upon posting the updated Terms with a revised "Last updated" date. Continued use of ObjetShop after changes constitutes acceptance of the new Terms.</p>
+  </section>
+
+  <section>
+    <h2>11. Governing Law</h2>
+    <p>These Terms of Service shall be governed by and construed in accordance with applicable laws, without regard to conflict of law principles.</p>
+  </section>
+
+  <section>
+    <h2>12. Contact Information</h2>
+    <p>For questions about these Terms of Service, please contact us:</p>
+    <div class="highlight-box">
+      <strong>ObjetShop</strong><br>
+      Email: <a href="mailto:contact@objetshop.app">contact@objetshop.app</a><br>
+      Website: <a href="https://objetshop.app">https://objetshop.app</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <strong>ObjetShop</strong> &nbsp;·&nbsp; Terms of Service &nbsp;·&nbsp; © 2025 ObjetShop. All rights reserved.
+</footer>
+
+</body>
+</html>
